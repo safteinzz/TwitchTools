@@ -11,9 +11,9 @@
 (function() {
     'use strict';
 
-    const hideChannels = ['Yoho_TV']; // Channels to hide
-    const highlightChannels = ['ESL_DOTA2', 'KaNangaTV', 'Muty', 'dota2ti', 'qojqva', 'Insym']; // Channels to highlight
-    const hideGames = ['Lost Ark', 'World of Warcraft']; // Games to hide
+    const hideChannels = ['ChannelName1', 'ChannelName2']; // Add channel names here to hide them
+    const highlightChannels = ['FavoriteChannel1', 'FavoriteChannel2']; // Add channel names here to highlight them
+    const hideGames = ['GameTitle1', 'GameTitle2']; // Add game titles here to hide them
 
     function updateChannelDisplay() {
         const sideChannels = document.querySelectorAll('.side-nav-card, .ScTransformWrapper-sc-1wvuch4-1');
